@@ -1,4 +1,4 @@
-package h20201202;
+package h202012.h02;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
@@ -17,7 +17,7 @@ public class Question1 {
 		System.out.println("please input the file name:");
 		String fileName = sc.nextLine();
 		try {
-			FileReader fileReader = new FileReader("src/main/"+fileName);
+			FileReader fileReader = new FileReader("homework/src/h202012/h02/"+fileName);
 			BufferedReader in = new BufferedReader(fileReader);
 			String str;
 			int lineNum = 1;
